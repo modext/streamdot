@@ -48,7 +48,7 @@ function Avatar({ accSetter }) {
       }
       return { ...prev, [e.target.dataset.type]: true };
     });
-    setsecLoad(1);
+    // setsecLoad(1);
     setClicked(null);
     accSetter((prev) => {
       return { ...prev, imgAv: null };
